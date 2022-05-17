@@ -1,0 +1,32 @@
+@media (min-width: 451px) {
+  .blog-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 150px repeat(2, 1fr) 200px;
+    gap: 15px;
+  }
+
+  .blog-head {
+    grid-area: 1 / 1 / 2 / 5;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .blog-about {
+    grid-area: 2 / 1 / 4 / 2;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .blog-post {
+    grid-area: 2 / 2 / 4 / 5;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .blog-foot {
+    grid-area: 4 / 1 / 5 / 5;
+    border: 2px solid black;
+    padding: 1em;
+  }
+}

@@ -1,0 +1,61 @@
+.blog-body {
+  background-image: url(../Photos/blog_background.gif);
+  background-size: cover;
+}
+
+.blog-head {
+  background: black;
+  color: blue;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px blue inset;
+}
+
+.blog-about {
+  background: black;
+  color: blue;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px blue inset;
+}
+
+.blog-post {
+  background: black;
+  color: blue;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px blue;
+}
+
+.blog-foot {
+  background: black;
+  color: blue;
+  box-shadow: 1px 1px 5px 5px blue inset;
+  text-align: center;
+  font-size: 20pt;
+}
+
+.blog-text {
+  color: blue;
+  font-family: monospace;
+  font-size: 16pt;
+  text-align: left;
+}
+
+.blog-button {
+  display: inline;
+  font-size: 18pt;
+  background: blue;
+  color: white;
+  font-family: monospace;
+}
+
+.blog-button:hover {
+  display: inline;
+  font-size: 18pt;
+  background: black;
+  color: blue;
+  font-family: monospace;
+}
+
+.blog-avatar {
+  width: auto;
+  height: 150px;
+}

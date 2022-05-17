@@ -1,0 +1,44 @@
+/* Flexbox layout for screen smaller than 500px */
+@media (max-width: 500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .home-header {
+    height: minmax(100px, auto);
+    width: 90%;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .home-navbar {
+    height: minmax(100px, auto);
+    width: 90%;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .blog-card {
+    height: minmax(100px, auto);
+    width: 90%;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .top-five {
+    height: minmax(100px, auto);
+    width: 90%;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .home-footer {
+    height: minmax(100px, auto);
+    width: 90%;
+    border: 2px solid black;
+    padding: 1em;
+  }
+}

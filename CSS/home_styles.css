@@ -1,0 +1,93 @@
+/* Styles, Colors, and Fonts for home page */
+
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+.home-body {
+  background-image: url(../Photos/main_background.gif);
+  background-size: cover;
+}
+
+.home-header {
+  background: black;
+  color: greenyellow;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px greenyellow inset;
+}
+
+.home-navbar {
+  background: black;
+  color: greenyellow;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px greenyellow inset;
+}
+
+.blog-card {
+  background-image: url(../Photos/blog_photo.jpg);
+  background-size: cover;
+  color: greenyellow;
+  box-shadow: 1px 1px 5px 5px greenyellow;
+}
+
+.home-button {
+  display: block;
+  font-size: 18pt;
+  background: greenyellow;
+  font-family: monospace;
+  width: auto;
+}
+
+.home-button:hover {
+  background: black;
+  color: greenyellow;
+}
+
+.top-five {
+  background: black;
+  background-size: cover;
+  color: greenyellow;
+  box-shadow: 1px 1px 5px 5px greenyellow;
+}
+
+.top-caption {
+  font-style: italic;
+  text-decoration: underline;
+  font-family: monospace;
+  max-width: 300px;
+}
+
+.top-photo {
+  width: 100%;
+  height: 50%px;
+}
+
+.home-footer {
+  background: black;
+  color: greenyellow;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px greenyellow inset;
+}
+
+.home-text {
+  font-size: 16pt;
+  font-family: monospace;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.top-list {    
+  font-size: 14pt;
+  font-family: monospace;  
+}
+
+.title {
+  font-family: "Press Start 2P";
+  text-align: center;
+}
+
+figcaption {
+  max-width: 100%;
+}

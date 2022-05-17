@@ -1,0 +1,48 @@
+.contact-body {
+  background-image: url(../Photos/contact_background.gif);
+  background-size: cover;
+}
+
+.contact-head {
+  background-color: rgb(2, 2, 88);
+  color: red;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px red inset;
+  padding: 1em;
+}
+
+.contact-info {
+  background-color: rgb(2, 2, 88);
+  color: red;
+  box-shadow: 1px 1px 5px 5px red;
+  padding: 1em;
+  font-size: 18pt;
+}
+
+.contact-foot {
+  background-color: rgb(2, 2, 88);
+  color: red;
+  text-align: center;
+  box-shadow: 1px 1px 5px 5px red inset;
+  padding: 1em;
+}
+
+.contact-button {
+  display: block;
+  font-size: 18pt;
+  background: red;
+  color: white;
+  font-family: monospace;
+  padding: 10px;
+  width: auto;
+}
+
+.contact-button:hover {
+  background: blue;
+  color: white;
+}
+
+.contact-text {
+  font-family: monospace;
+  font-size: 18pt;
+}

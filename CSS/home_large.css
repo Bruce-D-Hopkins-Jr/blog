@@ -1,0 +1,39 @@
+/* Flexbox layout for screen larger than 801px */
+@media (min-width: 801px) {
+  .container {
+    display: grid;
+    grid-template-columns: 100px, repeat(5, 1fr);
+    grid-template-rows: 150px, repeat(4, 1fr), 200px;
+    gap: 15px;
+  }
+
+  .home-header {
+    grid-area: 1 / 1 / 2 / 7;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .home-navbar {
+    grid-area: 2 / 1 / 6 / 2;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .blog-card {
+    grid-area: 2 / 2 / 4 / 7;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .top-five {
+    grid-area: 4 / 2 / 6 / 7;
+    border: 2px solid black;
+    padding: 1em;
+  }
+
+  .home-footer {
+    grid-area: 6 / 1 / 7 / 7;
+    border: 2px solid black;
+    padding: 1em;
+  }
+}
